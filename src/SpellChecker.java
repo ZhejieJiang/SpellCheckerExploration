@@ -62,7 +62,7 @@ public class SpellChecker
         String[] tmp = null;
         try
         {
-            tmp = readLines("dictionary.txt"); //readLines method is below
+            tmp = readLines("src/dictionary.txt"); //readLines method is below
         }
         catch(IOException e)
         {
